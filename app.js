@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Enjay@crm123',
+    password: 'pass',
     database: 'infeedo_test'
 });
 
