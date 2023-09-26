@@ -2,6 +2,8 @@
 
 Follow below steps to run the same:
 - open terminal
+- database name : infeedo_test
+- username and password : as per your db 
 - mkdir task-app-node
 - cd task-app-node
 - npm init
@@ -11,9 +13,9 @@ Follow below steps to run the same:
 - Follow below ones for the API checking
 
 **1. To create :**
-Method - POST
-http://localhost:3000/api/tasks
-Body raw data :
+- Method - POST
+- http://localhost:3000/api/tasks
+- Body raw data :
 {
     "title": "Meeting Setup",
     "description": "Align items and slides before meeting",
@@ -21,17 +23,19 @@ Body raw data :
 }
 
 **2. To update :**
-Method - PUT
-http://localhost:3000/api/tasks/{id}
-Body raw data :
+- Method - PUT
+- http://localhost:3000/api/tasks/{id}
+- Body raw data :
 {
     "title": "Meeting Setup",
     "description": "Align items and slides before meeting",
     "status": "Assigned"
 }
+
 **3. For get all with pagination :**
-Method - GET
-http://localhost:3000/api/tasks?page=1&perPage=2
+- Method - GET
+- http://localhost:3000/api/tasks?page=1&perPage=2
+
 **4. Get Status Metrics**
-Method - GET
-http://localhost:3000/api/status
+- Method - GET
+- http://localhost:3000/api/status
