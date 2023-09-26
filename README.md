@@ -3,11 +3,13 @@
 Follow below steps to run the same:
 - open terminal
 - database name : infeedo_test
-- username and password : as per your db 
+- username and password : as per your db (mine is root and pass respectively)
+- change in connection if required
 - mkdir task-app-node
 - cd task-app-node
 - npm init
 - npm install --save express mysql body-parser
+- make app.js file inside the task-node-app
 - To run Node app :- node app.js
 
 - Follow below ones for the API checking
